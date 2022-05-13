@@ -59,9 +59,9 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 254318997  # my telegram ID
-    OWNER_USERNAME = "SonOfLars"  # my telegram username
-    API_KEY = "your bot api key"  # my api key, as provided by the botfather
+    OWNER_ID = 641846423  # my telegram ID
+    OWNER_USERNAME = "Ashish"  # my telegram username
+    API_KEY = "5120192788:AAEphFPsLzEgzMxYcKIhhk_uVfMZ6KrcBlY"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
