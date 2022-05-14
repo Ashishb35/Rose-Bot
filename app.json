@@ -12,7 +12,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Ashishb35/Rose-Bot",
+  "repository": "https://github.com/jithumon/tgbot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
@@ -20,22 +20,21 @@
     },
     "TOKEN": {
       "description": "Your bot token, as a string."
-    
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "641846423"
+      "value": "20516707"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "Ashish"
+      "value": "SonOfLars"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
       "value": "ANYTHING"
     },
     "URL": {
-      "description": "The Heroku App URL similar to https://Bakkwasmoviesofficialbot.herokuapp.com/"
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -43,19 +42,19 @@
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "631486423"
+      "value": "254318997 18673980 83489514"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "ANYTHING"
+      "value": "254318997 18673980 83489514"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "631486423"
+      "value": "254318997 18673980 83489514"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/"
+      "value": "https://www.paypal.me/PaulSonOfLars"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
